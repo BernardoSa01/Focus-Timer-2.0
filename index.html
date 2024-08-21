@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
+  
+  <title>Focus Timer 2.0</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="./src/main.js" type="module" defer></script>
+</head>
+
+<body>
+  <main>
+    <section id="timer">
+      <div id="clock">
+        <span id="minutes">25</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+      </div>
+
+      <div id="controls">
+        <button 
+          data-action="toggleRunning"
+          class="play">
+          <img src="./assets/play.svg" alt="">
+        </button>
+
+        <button 
+          data-action="toggleRunning"
+          class="pause">
+          <img src="./assets/pause.svg" alt="">
+        </button>
+
+        <button 
+          data-action="reset"
+          class="stop">
+          <img src="./assets/stop.svg" alt="">
+        </button>
+
+        <button 
+          data-action="addFiveMinutes"
+          class="plus">
+          <img src="./assets/plus.svg" alt="">
+        </button>
+
+        <button 
+          data-action="removeFiveMinutes"
+          class="minus">
+          <img src="./assets/minus.svg" alt="">
+        </button>
+      </div>
+    </section>
+
+    <section id="music">
+      <div id="row1">
+        <button 
+          data-action="forestSound"
+          class="forest secondary">
+          <img src="./assets/forest.svg" alt="">
+        </button>
+
+        <button 
+          data-action="rainSound"
+          class="rain secondary">
+          <img src="./assets/rain.svg" alt="">
+        </button>
+      </div>
+
+      <div id="row2">
+        <button 
+          data-action="coffeeShopSound"
+          class="coffeeshop secondary">
+          <img src="./assets/coffeeshop.svg" alt="">
+        </button>
+
+        <button 
+          data-action="fireplaceSound"
+          class="fireplace secondary">
+          <img src="./assets/fireplace.svg" alt="">
+        </button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
