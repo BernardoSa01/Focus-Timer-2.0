@@ -1,7 +1,7 @@
 <h1 align="center"> Focus Timer - Versão 2.0 </h1>
 
 <p align="center">
-Programa promovido durante a trilha Explorer da Rocketseat para ensino de tecnologias WEB. 
+Programa desenvolvido durante a trilha Explorer da Rocketseat, com foco no aprimoramento das bases de HTML, CSS e JavaScript.. 
 </p>
 
 - [Acesse o projeto finalizado, online](https://focus-timer-20-bernardo-sas-projects.vercel.app/)
@@ -9,6 +9,7 @@ Programa promovido durante a trilha Explorer da Rocketseat para ensino de tecnol
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -23,31 +24,33 @@ Programa promovido durante a trilha Explorer da Rocketseat para ensino de tecnol
   <img alt="Projeto Focus Timer 2.0" src=".github/FocusTimer.png" width="90%">
 </p>
 
-Os botões abaixo do timer apresentam as seguintes funcionalidades: 
-
-- ```Play```: Aciona o timer;
-- ```Pause```: Pausa o timer;
-- ```Stop```: Para o timer e retorna a aplicação ao estado inicial ;
-- ```+```: Acrescenta 5 minutos ao tempo do timer;
-- ```-```: Diminui 5 minutos do tempo do timer; 
-- ```Seleção de sons ambientes:``` Nos cards à direita do relógio, foi adicionada a funcionalidade de selecionar diferentes sons de fundo (floresta, chuva, cafeteria e fogueira) para criar um ambiente propício à concentração.
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- JavaScript
-- Figma
+- JavaScript (ES6+)
+- Figma (prototipagem)
 
-
+---
 
 ## 💻 Projeto
 
 
-- <p align="center">A aplicação consiste em um temporizador ao estilo Pomodoro, para auxílio ao usuário principalmente no foco ao estudar.  <br/><br/></p>
+- <p align="center">O **Focus Timer 2.0** é um cronômetro inspirado na técnica Pomodoro, com o objetivo de ajudar os usuários a manterem o foco durante tarefas de estudo ou trabalho. A interface é responsiva, agradável e funcional, com a opção de adicionar sons ambientes para melhorar a concentração.  <br/><br/></p>
 
+
+## ✅ Funcionalidades
+
+- `Play`: Aciona o timer;
+- `Pause`: Pausa o timer;
+- `Stop`: Interrompe e reseta o timer para o estado inicial;
+- `+`: Adiciona 5 minutos ao timer;
+- `-`: Subtrai 5 minutos do timer;
+- `Sons ambientes`: Possibilidade de alternar entre Floresta 🌳, Chuva 🌧️, Cafeteria ☕ e Fogueira 🔥 para melhorar o ambiente de estudo/trabalho.
+
+---
 
 
 
@@ -61,4 +64,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito por Bernardo Sá :wave: [Participe da comunidade da Rocketseat!](https://discord.gg/rocketseat)
+Feito por Bernardo Sá :wave: [LinkedIn](https://www.linkedin.com/in/bernardosa01)
